@@ -19,8 +19,7 @@
 ## Cloud service recommendation (Heroku)
 * Open a Heroku account. https://signup.heroku.com
 * Verify your Heroku account. (required for uninterrupted use) https://devcenter.heroku.com/articles/account-verification
-* Open a GitHub account. https://github.com/signup
-* Come to this [repo](https://github.com/EnesKeremAYDIN/steam-hour-boosting), click the star in the upper right. ⭐
+* Open a GitHub account. https://github.com/signup (Come to this [repo](https://github.com/EnesKeremAYDIN/steam-hour-boosting), click the star in the upper right. ⭐)
 * Upload your own account's codes to GitHub. https://docs.github.com/en/get-started/quickstart/create-a-repo
 * Link your GitHub account and project to your Heroku account. https://devcenter.heroku.com/articles/github-integration
 * Deploy the codes to your Heroku account. https://devcenter.heroku.com/articles/github-integration
