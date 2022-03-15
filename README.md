@@ -2,7 +2,7 @@
 
 # Setup:
 
-## Account has Steam Guard (recommended)
+## If the account has Steam Guard (recommended)
 * Get Steam guard shared secret with [SDA](https://github.com/Jessecar96/SteamDesktopAuthenticator). (Or [Android](www.google.com/search?q=how+to+get+rooted+android+steam+guard+code), with [IOS](www.google.com/search?q=how+to+get+rooted+android+steam+guard+code)) (location: /sda_folder/maFiles/<account_64_id>.maFiles)
 * Enter the username, password and 2faKey the account on lines 6, 7 and 8 in the bot.js file.
 * Delete the double slash (//) at the beginning of line 8.
