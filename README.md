@@ -4,6 +4,11 @@
 
 # Setup:
 
+## If the account does not have Steam Guard
+* Enter the username and password of the account on lines 6 and 7 in the bot.js file.
+* Enter the sample app id list from line 13 in the bot.js file. (enter up to 32 ids!)
+* Upload to a cloud service or leave it open on your computer.
+
 ## If the account has Steam Guard (recommended)
 * Get Steam guard shared secret with [SDA](https://github.com/Jessecar96/SteamDesktopAuthenticator). (Or [Android](www.google.com/search?q=how+to+get+rooted+android+steam+guard+code), with [IOS](www.google.com/search?q=how+to+get+rooted+android+steam+guard+code)) (location: sda_folder/maFiles/<account_64_id>.maFiles)
 * Enter the username, password and shared secret the account on lines 6, 7 and 8 in the bot.js file.
@@ -11,12 +16,7 @@
 * Enter the sample app id list from line 13 in the bot.js file. (enter up to 32 ids!)
 * Upload to a cloud service or leave it open on your computer.
 
-## If the account does not have Steam Guard
-* Enter the username and password of the account on lines 6 and 7 in the bot.js file.
-* Enter the sample app id list from line 13 in the bot.js file. (enter up to 32 ids!)
-* Upload to a cloud service or leave it open on your computer.
-
-## Cloud service recommendation (Heroku)
+## Cloud service installation (Heroku)
 * Open a Heroku account. https://signup.heroku.com
 * Verify your Heroku account. (required for uninterrupted use) https://devcenter.heroku.com/articles/account-verification
 * Open a GitHub account. https://github.com/signup (Come to this [repo](https://github.com/EnesKeremAYDIN/steam-hour-boosting), click the star in the upper right. ⭐)
