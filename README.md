@@ -26,6 +26,7 @@
 * Deploy the codes to your Heroku account. https://devcenter.heroku.com/articles/github-integration
 
 ## Warnings:
+* There are a lot of people using this system, a lot of them, and I haven't seen any of them penalized by Steam or Valve, but that doesn't mean they won't (I don't think they will). In short, all responsibility is on you when using it, if you do not accept all risks, do not use it.
 * When entering the list of IDs, put a comma (,) at the end of all IDs except the last ID.
 * Make the repo you uploaded to your GitHub account private.
 
