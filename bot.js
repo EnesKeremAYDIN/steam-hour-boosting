@@ -7,6 +7,7 @@ client.logOn({
   password: "password",
   //twoFactorCode: SteamTotp.generateAuthCode("if_you_have_twoFactorCode")
 });
+
 client.on("loggedOn", function() {
   console.log("Bot logged on!");
   client.setPersona(1);
