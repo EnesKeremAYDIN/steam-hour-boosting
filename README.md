@@ -1,28 +1,86 @@
-# Setup:
+# Steam Hour Boosting Bot
 
-## If the account does not have Steam Guard
-* Enter the username and password of the account on lines 6 and 7 in the bot.js file.
-* Enter the sample app id list from line 13 in the bot.js file. (enter up to 32 ids!)
-* Upload to a cloud service or leave it open on your computer.
+A Node.js bot to boost play hours on specified Steam games. This tool allows users to accumulate hours on their Steam profile or in specific games by simulating playtime.
 
-## If the account has Steam Guard (recommended)
-* Get Steam guard shared secret with [SDA](https://github.com/Jessecar96/SteamDesktopAuthenticator). (Or [Android](www.google.com/search?q=how+to+get+rooted+android+steam+guard+code), with [IOS](www.google.com/search?q=how+to+get+rooted+android+steam+guard+code)) (location: sda_folder/maFiles/<account_64_id>.maFiles)
-* Enter the username, password and shared secret the account on lines 6, 7 and 8 in the bot.js file.
-* Delete the double slash (//) at the beginning of line 8.
-* Enter the sample app id list from line 13 in the bot.js file. (enter up to 32 ids!)
-* Upload to a cloud service or leave it open on your computer.
+## Features
 
-## Cloud service installation (Heroku)
-* Open a Heroku account. https://signup.heroku.com
-* Verify your Heroku account. (required for uninterrupted use) https://devcenter.heroku.com/articles/account-verification
-* Open a GitHub account. https://github.com/signup (Come to this [repo](https://github.com/EnesKeremAYDIN/steam-hour-boosting), click the star in the upper right. ⭐)
-* Upload your own account's codes to GitHub. https://docs.github.com/en/get-started/quickstart/create-a-repo
-* Link your GitHub account and project to your Heroku account. https://devcenter.heroku.com/articles/github-integration
-* Deploy the codes to your Heroku account. https://devcenter.heroku.com/articles/github-integration
+- Simulates playtime for up to **32 games simultaneously**, maximizing hour boosting efficiency.
+- Easy to configure with a list of Steam App IDs.
+- Works in the background, boosting hours while the bot runs.
 
-## Warnings:
-* There are a lot of people using this system, a lot of them, and I haven't seen any of them penalized by Steam or Valve, but that doesn't mean they won't (I don't think they will). In short, all responsibility is on you when using it, if you do not accept all risks, do not use it.
-* When entering the list of IDs, put a comma (,) at the end of all IDs except the last ID.
-* Make the repo you uploaded to your GitHub account private.
+## Installation and Setup
 
-I'll be posting an update soon that will let you manage this bot via Discord, I guess.
+### Prerequisites
+
+- **Node.js** installed on your machine.
+- A **Steam account** to use for boosting hours.
+
+### Installation
+
+1. **Clone or Download** this repository:
+   ```bash
+   git clone https://github.com/yourusername/steam-hour-boosting.git
+   cd steam-hour-boosting
+   ```
+
+2. **Install Required Packages**:
+   ```bash
+   npm install
+   ```
+
+### Configuration
+
+#### If the Account Does Not Have Steam Guard
+1. **Enter Login Credentials**:
+   - Open `bot.js` and enter your Steam account’s username and password on lines 6 and 7.
+2. **Set Up App ID List**:
+   - Specify up to 32 Steam App IDs for boosting in `bot.js` on line 13.
+3. **Run Locally or Upload to a Cloud Service**:
+   - You can run the bot locally or upload it to a cloud service like Heroku.
+
+#### If the Account Has Steam Guard (Recommended)
+1. **Get the Steam Guard Shared Secret**:
+   - Retrieve your Steam Guard shared secret using [SDA](https://github.com/Jessecar96/SteamDesktopAuthenticator) or via a rooted [Android](https://www.google.com/search?q=how+to+get+rooted+android+steam+guard+code) or [iOS](https://www.google.com/search?q=how+to+get+rooted+android+steam+guard+code) device.
+2. **Enter Login Credentials and Shared Secret**:
+   - Enter your Steam username, password, and shared secret in `bot.js` on lines 6, 7, and 8.
+   - Remove the double slashes (`//`) at the beginning of line 8.
+3. **Set Up App ID List**:
+   - Specify up to 32 Steam App IDs in `bot.js` on line 13.
+4. **Run Locally or Upload to a Cloud Service**:
+   - You can run the bot locally or upload it to a cloud service like Heroku.
+
+### Cloud Service Installation (Heroku)
+
+1. **Create and Verify a Heroku Account**:
+   - Sign up at https://signup.heroku.com and verify your account at https://devcenter.heroku.com/articles/account-verification.
+2. **Set Up a GitHub Repository**:
+   - Create a GitHub account at https://github.com/signup.
+   - Upload your bot code to your GitHub repository (see GitHub’s [quickstart guide](https://docs.github.com/en/get-started/quickstart/create-a-repo) if needed).
+3. **Deploy to Heroku**:
+   - Link your GitHub account to Heroku: https://devcenter.heroku.com/articles/github-integration.
+   - Deploy your repository to Heroku following the [Heroku GitHub integration guide](https://devcenter.heroku.com/articles/github-integration).
+
+### Running the Bot
+
+After setup, you can run the bot locally or on your chosen cloud service:
+```bash
+node bot.js
+```
+
+## Files
+
+- **`bot.js`**: Main script for handling hour boosting on Steam.
+- **`simple_app_id_list.txt`**: Text file containing Steam game IDs to boost, supporting up to 32 games.
+- **`package.json`**: Lists dependencies and configuration details for the Node.js project.
+
+## Warnings
+
+- While no penalties have been reported for using this method, using it is at your own risk, and Steam or Valve could implement measures against such activities.
+- When entering App IDs, ensure there is a comma after each ID except the last one.
+- Make your GitHub repository private to secure your credentials.
+
+*Note:* An upcoming update will enable bot management via Discord for more streamlined control.
+
+## Disclaimer
+
+This tool is intended for personal use. Ensure compliance with Steam’s terms of service, as unauthorized use may lead to account suspension.
