@@ -19,7 +19,7 @@ A Node.js bot to boost play hours on specified Steam games. This tool allows use
 
 1. **Clone or Download** this repository:
    ```bash
-   git clone https://github.com/yourusername/steam-hour-boosting.git
+   git clone https://github.com/EnesKeremAYDIN/steam-hour-boosting.git
    cd steam-hour-boosting
    ```
 
