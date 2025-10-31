@@ -1,6 +1,6 @@
 # Steam Hour Boosting Bot
 
-A Node.js bot to boost play hours on specified Steam games. This tool allows users to accumulate hours on their Steam profile or in specific games by simulating playtime.
+Node.js bot to boost play hours on specified Steam games. This tool allows users to accumulate hours on their Steam profile or in specific games by simulating playtime.
 
 ## Features
 
